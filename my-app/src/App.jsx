@@ -4,6 +4,8 @@ import Slide from "./components/Slide";
 import History from "./components/History";
 import Menu from "./components/Menu";
 
+import Copyright from "./components/Copyright";
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,7 @@ function App() {
       <Slide />
       <History />
       <Menu />
+      <Copyright />
     </div>
   );
 }
