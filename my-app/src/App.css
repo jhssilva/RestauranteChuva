@@ -5,29 +5,29 @@
 @font-face {
   font-family: "MontSerrat";
   font-style: normal;
-  /* src: local("MontSerrat"),
-    url("/static/fonts/Montserrat-Regular.otf") format("opentype"); */
+  src: local("MontSerrat"),
+    url("./resources/fonts/Montserrat-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "MontSerrat-Bold";
   font-style: normal;
-  /* src: local("MontSerrat-Bold"),
-    url("/static/fonts/Montserrat-Bold.otf") format("opentype"); */
+  src: local("MontSerrat-Bold"),
+    url("./resources/fonts/Montserrat-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "MontSerrat-ExtraBold";
   font-style: normal;
-  /* src: local("MontSerrat-ExtraBold"),
-    url("/static/fonts/Montserrat-ExtraBold.otf") format("opentype"); */
+  src: local("MontSerrat-ExtraBold"),
+    url("./resources/fonts/Montserrat-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
   font-family: "MontSerrat-Black";
   font-style: normal;
-  /* src: local("MontSerrat-Black"),
-    url("/static/fonts/Montserrat-Black.otf") format("opentype"); */
+  src: local("MontSerrat-Black"),
+    url("./resources/fonts/Montserrat-Black.otf") format("opentype");
 }
 
 /*--------------------------------------------------------------

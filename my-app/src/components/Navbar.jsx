@@ -41,7 +41,7 @@ const SupportedContent = () => {
   );
 };
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-custom sticky-top py-3">
       <div className="container">
@@ -67,4 +67,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
