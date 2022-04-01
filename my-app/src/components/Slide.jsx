@@ -9,26 +9,23 @@ const carouselLists = [
     key: 1,
     imgSrc: img1,
     alt: "Restaurante Image",
-    classInfo: "carousel-item",
   },
   {
     key: 2,
     imgSrc: img2,
     alt: "Restaurante Image",
-    classInfo: "carousel-item",
   },
   {
     key: 3,
     imgSrc: img3,
     alt: "Restaurante Image",
-    classInfo: "carousel-item",
   },
 ];
 
 const CarouselSlide = () => {
   return (
     <Carousel
-      className="carousel slideshow"
+      className=""
       data-ride="carousel"
       id="slide-global-show"
       data-interval="3000"
@@ -36,9 +33,9 @@ const CarouselSlide = () => {
       indicators=""
     >
       {carouselLists.map((props) => {
-        const { key, imgSrc, alt, classInfo } = props;
+        const { key, imgSrc, alt } = props;
         return (
-          <CarouselItem key={key} className={classInfo}>
+          <CarouselItem key={key}>
             <img alt={alt} src={imgSrc} className="d-block w-100" />
           </CarouselItem>
         );

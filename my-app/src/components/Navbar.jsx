@@ -45,11 +45,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-custom sticky-top py-3">
       <div className="container">
-        {/* logo png */}
         <a className="navbar-brand" href="">
           <img src={Logo} className="navbar-logo" alt="logo"></img>{" "}
         </a>
-        {/* end logo png */}
+
         <Button
           className="navbar-toggler"
           data-toggle="collapse"
@@ -58,7 +57,6 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          {" "}
           <i className="fas fa-bars navbar-bars"></i>
         </Button>
         <SupportedContent />
