@@ -55,7 +55,7 @@ const InnerCaptionSlide = () => {
 
 const Slide = () => {
   return (
-    <section className="pb-2 slide">
+    <section id="#slideSection" className="pb-2 slide">
       <div id="slide-global" className="container-fluid">
         <CarouselSlide />
         <InnerCaptionSlide />
