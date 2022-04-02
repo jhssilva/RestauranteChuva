@@ -2,4 +2,4 @@
 
 Website for a Restaurant. A single web page application (SAP) in React.
 
-(WEBSITE)[restaurantechuvaa.web.app]
+[Restaurante Chuva Website](restaurantechuvaa.web.app)
