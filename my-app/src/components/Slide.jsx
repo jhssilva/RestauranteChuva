@@ -1,46 +1,28 @@
 import React from "react";
-import { Carousel, CarouselItem } from "react-bootstrap";
 import img1 from "../resources/img/restaurant/1.jpg";
 import img2 from "../resources/img/restaurant/2.jpg";
 import img3 from "../resources/img/restaurant/3.jpg";
 
-const carouselLists = [
-  {
-    key: 1,
-    imgSrc: img1,
-    alt: "Restaurante Image",
-  },
-  {
-    key: 2,
-    imgSrc: img2,
-    alt: "Restaurante Image",
-  },
-  {
-    key: 3,
-    imgSrc: img3,
-    alt: "Restaurante Image",
-  },
-];
-
 const CarouselSlide = () => {
   return (
-    <Carousel
-      className=""
+    <div
+      className="carousel slideshow"
       data-ride="carousel"
       id="slide-global-show"
       data-interval="3000"
-      controls={false}
-      indicators=""
     >
-      {carouselLists.map((props) => {
-        const { key, imgSrc, alt } = props;
-        return (
-          <CarouselItem key={key}>
-            <img alt={alt} src={imgSrc} className="d-block w-100" />
-          </CarouselItem>
-        );
-      })}
-    </Carousel>
+      <div className="carousel-inner" id="slide-global-carousel-inner">
+        <div className="carousel-item active">
+          <img src={img1} className="d-block w-100" alt="Restaurant" />
+        </div>
+        <div className="carousel-item">
+          <img src={img2} className="d-block w-100" alt="Restaurant" />
+        </div>
+        <div className="carousel-item">
+          <img src={img3} className="d-block w-100" alt="Restaurant" />
+        </div>
+      </div>
+    </div>
   );
 };
 
