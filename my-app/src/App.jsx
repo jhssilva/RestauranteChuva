@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Slide from "./components/Slide";
 import History from "./components/History";
 import Menu from "./components/Menu";
+import Gallery from "./components/Gallery";
 
 import Contact from "./components/Contact";
 import Map from "./components/Map";
@@ -15,6 +16,7 @@ function App() {
       <Slide />
       <History />
       <Menu />
+      <Gallery />
       <Contact />
       <Map />
       <Copyright />

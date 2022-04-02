@@ -163,9 +163,9 @@ const Menu = () => {
         <div className="section-title">
           <h2 className="text-center">Menu</h2>
         </div>
-        <TabFilters />
-        <MenuContainer />
       </div>
+      <TabFilters />
+      <MenuContainer />
     </section>
   );
 };

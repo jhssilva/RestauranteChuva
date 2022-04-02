@@ -1,19 +1,16 @@
 import React from "react";
 import award1 from "../resources/img/awards/3.jpg";
+import Title from "./Title";
 
 const History = () => {
   return (
     <section id="about" className="about anchor pt-4 pb-3">
+      <Title divClass="section-title pb-5" headerText="A nossa História" />
       <div
         id="about-global"
         data-aos="fade-up"
         className="container container-fluid"
       >
-        <div className="section-title pb-5">
-          <h2 className="text-center">
-            <span id="one">A nossa História</span>
-          </h2>
-        </div>
         <div className="row">
           <div className="col-11 mx-auto col-md-11 col-lg-10 justify-content-center">
             <div className="row">

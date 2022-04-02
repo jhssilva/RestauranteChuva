@@ -1,14 +1,5 @@
 import React from "react";
-
-const Title = () => {
-  return (
-    <div className="container" data-aos="fade-up">
-      <div className="section-title">
-        <h2 className="text-center">Contacto</h2>
-      </div>
-    </div>
-  );
-};
+import Title from "./Title";
 
 const Info = () => {
   return (
@@ -119,7 +110,7 @@ const Form = () => {
 const Contact = () => {
   return (
     <section id="contact" className="contact pt-5 pb-5">
-      <Title />
+      <Title divClass="section-title" headerText="Contacto" />
       <div className="container" data-aos="fade-up">
         <div className="row mt-5">
           <Info />
