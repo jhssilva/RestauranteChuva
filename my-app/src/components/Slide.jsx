@@ -62,7 +62,7 @@ const InnerCaptionSlide = () => {
       </a>
       <a
         className="btn btn-primary slide-button-text animated fadeInUp scrollto"
-        href="#book-a-table"
+        href="#contact"
         role="button"
       >
         Reservar Mesa
