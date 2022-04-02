@@ -36,14 +36,14 @@ const InnerCaptionSlide = () => {
         <h1 className="slide-text">Restaurante Chuva desde 1958</h1>
       </div>
       <a
-        className="btn btn-primary slide-button-text animated fadeInUp scrollto"
+        className="btn btn-primary slide-button-text animated"
         href="#menu"
         role="button"
       >
         Cardápio
       </a>
       <a
-        className="btn btn-primary slide-button-text animated fadeInUp scrollto"
+        className="btn btn-primary slide-button-text animated"
         href="#contact"
         role="button"
       >

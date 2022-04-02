@@ -78,6 +78,12 @@ h2 {
   box-shadow: 0 0 0 0.2rem #cda45e;
 }
 
+.btn-primary:active {
+    background-color: #cda45e !important;
+    color: #36683d !important;
+    border-color: white !important;
+}
+
 /*--------------------------------------------------------------
 # Carousel
 --------------------------------------------------------------*/
@@ -188,6 +194,7 @@ h2 {
   font-family: MontSerrat-Bold;
   font-size: 15pt;
 }
+
 
 /*
 #slide-h1 {
