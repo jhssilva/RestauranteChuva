@@ -1,6 +1,7 @@
 import { useState, React } from "react";
 import LobsterBisk from "../resources/img/menu/lobster-bisque.jpg";
 import Mozarella from "../resources/img/menu/mozzarella.jpg";
+import Title from "./Title";
 
 const filtersList = [
   { key: 1, dataFilter: "*", description: "Todos" },
@@ -159,11 +160,7 @@ const Menu = () => {
   };
   return (
     <section id="menu" className="menu section-bg pt-5 pb-2">
-      <div className="container" data-aos="fade-up">
-        <div className="section-title">
-          <h2 className="text-center">Menu</h2>
-        </div>
-      </div>
+      <Title divClass="section-title pb-4" headerText="Menu" />
       <TabFilters />
       <MenuContainer />
     </section>

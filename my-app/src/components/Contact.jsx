@@ -110,7 +110,7 @@ const Form = () => {
 const Contact = () => {
   return (
     <section id="contact" className="contact pt-5 pb-5">
-      <Title divClass="section-title" headerText="Contacto" />
+      <Title divClass="section-title pb-4" headerText="Contacto" />
       <div className="container" data-aos="fade-up">
         <div className="row mt-5">
           <Info />

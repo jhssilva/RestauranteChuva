@@ -45,8 +45,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-custom sticky-top py-3">
       <div className="container">
-        <a className="navbar-brand" href="">
-          <img src={Logo} className="navbar-logo" alt="logo"></img>{" "}
+        <a className="navbar-brand" href="#slide-global">
+          <img src={Logo} className="navbar-logo" alt="logo" />
         </a>
 
         <Button
