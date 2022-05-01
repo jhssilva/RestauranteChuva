@@ -151,6 +151,31 @@ h2 {
   color: #ffffff;
 }
 
+.navbar-container{
+  display: flex;
+  width: 100%;
+}
+
+.navbar-container .col-sm-9{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.navbar-container .navbar-toggler{
+  width: 75px;
+}
+
+.navbar-collapse .nav{
+  align-items: flex-end;
+}
+
+.navbar-collapse{
+  background-color: rgb(54, 104, 61);
+  opacity: 0.9;
+  padding: 10px;
+}
+
 /*--------------------------------------------------------------
 # Text
 --------------------------------------------------------------*/

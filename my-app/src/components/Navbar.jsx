@@ -14,7 +14,7 @@ const navItemList = [
 const NavItem = (props) => {
   const { hrefValue, description } = props;
   return (
-    <li className="nav-item pr-4">
+    <li className="nav-item">
       <a className="nav-link navbar-text" href={hrefValue}>
         {description}
       </a>
@@ -44,22 +44,25 @@ const SupportedContent = () => {
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-custom sticky-top py-3">
-      <div className="container">
-        <a className="navbar-brand" href="#slide-global">
-          <img src={Logo} className="navbar-logo" alt="logo" />
-        </a>
-
-        <Button
-          className="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i className="fas fa-bars navbar-bars"></i>
-        </Button>
-        <SupportedContent />
+      <div className="navbar-container">
+        <div className="col-sm-3">
+          <a className="navbar-brand" href="#slide-global">
+            <img src={Logo} className="navbar-logo" alt="logo" />
+          </a>
+        </div>
+        <div className="col-sm-9">
+          <Button
+            className="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i className="fas fa-bars navbar-bars"></i>
+          </Button>
+          <SupportedContent />
+        </div>
       </div>
     </nav>
   );
