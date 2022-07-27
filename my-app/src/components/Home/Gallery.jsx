@@ -1,13 +1,13 @@
 import React from "react";
 import Title from "./Title";
-import img1 from "../resources/img/gallery/gallery-1.jpg";
-import img2 from "../resources/img/gallery/gallery-2.jpg";
-import img3 from "../resources/img/gallery/gallery-3.jpg";
-import img4 from "../resources/img/gallery/gallery-4.jpg";
-import img5 from "../resources/img/gallery/gallery-5.jpg";
-import img6 from "../resources/img/gallery/gallery-6.jpg";
-import img7 from "../resources/img/gallery/gallery-7.jpg";
-import img8 from "../resources/img/gallery/gallery-8.jpg";
+import img1 from "../../resources/img/gallery/gallery-1.jpg";
+import img2 from "../../resources/img/gallery/gallery-2.jpg";
+import img3 from "../../resources/img/gallery/gallery-3.jpg";
+import img4 from "../../resources/img/gallery/gallery-4.jpg";
+import img5 from "../../resources/img/gallery/gallery-5.jpg";
+import img6 from "../../resources/img/gallery/gallery-6.jpg";
+import img7 from "../../resources/img/gallery/gallery-7.jpg";
+import img8 from "../../resources/img/gallery/gallery-8.jpg";
 
 const galleryList = [
   { key: 1, imgRef: img1 },

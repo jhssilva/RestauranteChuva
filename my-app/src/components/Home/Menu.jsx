@@ -1,6 +1,6 @@
-import { useState, React } from "react";
-import LobsterBisk from "../resources/img/menu/lobster-bisque.jpg";
-import Mozarella from "../resources/img/menu/mozzarella.jpg";
+import React, { useState } from "react";
+import LobsterBisk from "../../resources/img/menu/lobster-bisque.jpg";
+import Mozarella from "../../resources/img/menu/mozzarella.jpg";
 import Title from "./Title";
 
 const filtersList = [
@@ -142,8 +142,14 @@ const Menu = () => {
               activeTab === 1
           )
           .map((props) => {
-            const { key, classContext, img, content, price, ingredients } =
-              props;
+            const {
+              key,
+              classContext,
+              img,
+              content,
+              price,
+              ingredients,
+            } = props;
             return (
               <div key={key} className={"col-lg-6 menu-item " + classContext}>
                 <img src={img} className="menu-img" alt="" />

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../resources/img/logo/logo.svg";
+import Logo from "../../resources/img/logo/logo.svg";
 import Button from "react-bootstrap/Button";
 
 const navItemList = [
