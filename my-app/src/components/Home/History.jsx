@@ -1,5 +1,5 @@
 import React from "react";
-import award1 from "../../resources/img/awards/3.jpg";
+import award1 from "resources/img/awards/3.jpg";
 import Title from "./Title";
 
 const History = () => {

@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../../resources/img/restaurant/1.jpg";
-import img2 from "../../resources/img/restaurant/2.jpg";
-import img3 from "../../resources/img/restaurant/3.jpg";
+import img1 from "resources/img/restaurant/1.jpg";
+import img2 from "resources/img/restaurant/2.jpg";
+import img3 from "resources/img/restaurant/3.jpg";
 
 const CarouselSlide = () => {
   return (

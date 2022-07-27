@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import LobsterBisk from "../../resources/img/menu/lobster-bisque.jpg";
-import Mozarella from "../../resources/img/menu/mozzarella.jpg";
+import LobsterBisk from "resources/img/menu/lobster-bisque.jpg";
+import Mozarella from "resources/img/menu/mozzarella.jpg";
 import Title from "./Title";
 
 const filtersList = [

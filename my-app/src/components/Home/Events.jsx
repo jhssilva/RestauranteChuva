@@ -1,8 +1,8 @@
 import React from "react";
 import Title from "./Title";
-import img1 from "../../resources/img/events/type/marriage-1.jpg";
-import img2 from "../../resources/img/events/type/company-dinner-1.jpg";
-import img3 from "../../resources/img/events/type/baptized-1.jpg";
+import img1 from "resources/img/events/type/marriage-1.jpg";
+import img2 from "resources/img/events/type/company-dinner-1.jpg";
+import img3 from "resources/img/events/type/baptized-1.jpg";
 
 const eventsList = [
   {
